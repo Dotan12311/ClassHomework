@@ -1,0 +1,24 @@
+<!-- post_homework.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Homework</title>
+</head>
+<body>
+    <label for="subject">Subject:</label>
+    <select id="subject">
+        <option value="Math">Math</option>
+        <option value="Science">Science</option>
+        <!-- Add more subjects if needed -->
+    </select>
+    <br>
+    <label for="dueDate">Due Date:</label>
+    <input type="date" id="dueDate">
+    <br>
+    <textarea id="homeworkInput" placeholder="Enter your homework"></textarea>
+    <button onclick="postHomework()">Post Homework</button>
+    <script src="app.js"></script>
+</body>
+</html>
